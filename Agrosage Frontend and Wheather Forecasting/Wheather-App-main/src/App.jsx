@@ -220,7 +220,10 @@ console.log(video)
 
       <div className='main' id='main'>
 
-        <video src={`src/assets/video/${video}.mp4`} autoPlay loop muted ></video>
+        <img className="wheather" 
+            src="https://images.pexels.com/photos/844297/pexels-photo-844297.jpeg?auto=compress&cs=tinysrgb&w=600"
+            alt=""
+          />
         <div className='content'>
 
           <CardWeather 
