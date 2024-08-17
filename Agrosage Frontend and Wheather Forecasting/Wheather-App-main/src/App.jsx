@@ -128,12 +128,12 @@ console.log(video)
         <div className="service-container1">
             <div className="container2">
               <div className="image-pum"><img src="https://agrierp.com/blog/wp-content/uploads/2023/05/The-Benefits-of-Crop-Management-Software-for-Farmers-copy-850x560.jpg" /></div>
-              <div className="title-pum">Crop Recommendation Tool</div>
+              <div className="title-pum"><a href = "https://crt-1.onrender.com">Crop Recommendation Tool</a></div>
               <div className="text-pum">Our Crop Recommendation Tool analyzes soil health, weather patterns, and local conditions to suggest the best crops for your farm. It helps you choose the most suitable crops for maximum yield and profitability, ensuring sustainable farming practices tailored to your specific needs.</div>
             </div>
             <div className="container2">
               <div className="image-pum"><img src="https://media.istockphoto.com/photos/ripe-rice-in-the-field-of-farmland-picture-id622925154?k=20&m=622925154&s=612x612&w=0&h=hLtkpC3VdXeqWhblSowvPRu4XgsCwFW6JQM-Px2KzbY=" /></div>
-              <div className="title-pum">Country Crop Predictor
+              <div className="title-pum"><a href='https://cyt.onrender.com'>Country Crop Predictor</a>
 
               </div>
               <div className="text-pum">Our Country-Specific Crop Predictor tailors recommendations based on the unique climate, soil, and market conditions of your region. By analyzing local data, it identifies the most profitable and sustainable crops for your country, helping you make informed decisions and maximize your farming success.</div>
@@ -142,7 +142,7 @@ console.log(video)
   <div className="image-pum">
     <img src="https://th.bing.com/th/id/OIP.6_s1cTC8e0LUz4sV7H4DuQHaD4?rs=1&pid=ImgDetMain" alt="AI-Powered Chatbot" />
   </div>
-  <div className="title-pum">AI-Powered Chatbot</div>
+  <div className="title-pum"><a href='#'>AI-Powered Chatbot</a></div>
   <div className="text-pum">
     Our AI-Powered Chatbot offers instant, expert advice on farming practices, crop management, and problem-solving. 
     Available 24/7, it answers your questions, provides tailored recommendations, and guides you through challenges, 
@@ -152,7 +152,7 @@ console.log(video)
 
             <div className="container2">
               <div className="image-pum"><img src="https://www.gannett-cdn.com/presto/2018/10/19/PNDN/37f2a43f-f349-47bb-9f10-ee7b5064171e-nbc2_7day_web.jpg?crop=1099,618,x0,y0&width=3200&height=1680&fit=bounds" /></div>
-              <div className="title-pum">Weather Forecasting
+              <div className="title-pum"><a href='#main'>Weather Forecasting</a>
 
               </div>
               <div className="text-pum">Get accurate, real-time weather forecasts tailored to your farm's location. Our weather forecasting feature helps you plan planting, irrigation, and harvest schedules, minimizing risks and maximizing yields with precise, up-to-date information. Stay ahead of adverse weather conditions with timely alerts and detailed reports.</div>
@@ -218,7 +218,7 @@ console.log(video)
 
     <div className="App">
 
-      <div className='main'>
+      <div className='main' id='main'>
 
         <video src={`src/assets/video/${video}.mp4`} autoPlay loop muted ></video>
         <div className='content'>
